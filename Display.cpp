@@ -1,4 +1,4 @@
-//name stuff goes here
+// Sean Javiya     ||     Section: 240-07     ||     seanjaviya@csu.fullerton.edu
 #include <stdio.h>
 #include <cstdlib>
 extern "C" void display_assembly_array(double arrayToPrint[], long length);

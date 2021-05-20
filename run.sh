@@ -1,4 +1,4 @@
-# name stuff
+# Sean Javiya     ||     Section: 240-07     ||     seanjaviya@csu.fullerton.edu
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 #Assemble Control.asm
@@ -11,7 +11,7 @@ nasm -f elf64 -l Fill.lis -o Fill.o Fill.asm
 nasm -f elf64 -l Harmonic_mean.lis -o Harmonic_mean.o Harmonic_mean.asm
 #Compile Main.c
 gcc -c -Wall -m64 -no-pie -o Main.o Main.c -std=c11
-
+#compile isfloat.cpp
 g++ -c -Wall -m64 -no-pie -g -o isfloat.o isfloat.cpp
 
 
